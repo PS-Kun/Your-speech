@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding:0;
+    position: relative;
+}
+
+.hero{
+    height:100vh;
+    width: 100vw;
+    background-image: url(./Images/palm-5616481.png);
+    background-size: cover;
+    background-position: center center;
+    /* background: linear-gradient(45deg, blue, purple, pink); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.hero h1{
+    color: #fff;
+    font-weight: bold;
+    margin: 0px auto ;
+    position: absolute;
+    top: 20px;
+    font-size: 60px;
+
+}
+.hero h1 span{
+    background: linear-gradient(45deg, rgb(30, 30, 72), rgb(80, 80, 245), rgb(3, 82, 109));
+    background-clip: text; /* Clips background to text */
+    -webkit-text-fill-color: transparent;  /* Makes text transparent so gradient shows */
+}
+
+textarea{
+    width: 700px;
+    height: 400px;
+    /* background: linear-gradient(to top, rgb(8, 163, 8), lightgreen); */
+    background: rgba(120,120,120 , 0.2);
+    backdrop-filter: blur(10px);
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    resize: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    color:#fff;
+    font-size: 35px;
+}
+
+textarea::placeholder{
+    font-size: 35px;
+    color: #ddd;
+}
+
+.row{
+    width: 700px;
+    display: flex;
+    gap:10px;
+}
+button{
+    border-radius: 10px;
+    color: black;
+    background: rgb(217, 255, 160);
+    font-size: 15px;
+    
+}
+.row select{
+    flex: 1;
+    background: lightskyblue;
+    border: 0;
+    outline: 0;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 13px;
+    height: 40px;
+    font-size: 18px;
+
+}
+
+.photo{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+     top: 280px;
+    right: 100px;
+     background: rgba(120,120,120 , 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    display: none;
+
+}
+
+.photo img{
+   
+    height: 100%;
+    width: 100%;
+    
+    
+    
+}
